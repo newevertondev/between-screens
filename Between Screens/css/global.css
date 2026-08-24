@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:100px;
+}
+
+#menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--primary);
+    cursor: pointer;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    background:var(--white);
+    color:var(--dark);
+}
+
+section{
+    padding:100px 8%;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+p{
+    line-height:1.8;
+    color:var(--gray-500);
+}
+
+h1,h2,h3,h4,h5{
+    color:var(--dark);
+}
+
+.card,
+.alert-card,
+.ajuda-card,
+.ia-card,
+.depoimentos-container{
+    transition:.3s ease;
+}
+
+.card:hover,
+.alert-card:hover,
+.ajuda-card:hover,
+.ia-card:hover,
+.depoimentos-container:hover{
+    transform:translateY(-5px);
+}
+
+#resultado{
+    margin-top:30px;
+    text-align:center;
+}
